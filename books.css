@@ -1,0 +1,164 @@
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(77, 12, 12);
+    opacity: 0.79;
+    position: sticky;
+    top:0;
+    gap:125px;
+}
+.company{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:124px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    width:534px;
+}
+::-webkit-scrollbar{
+    width:21px;
+}
+::-webkit-scrollbar-thumb{
+    background:black;
+    border-radius: 79px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(182, 182, 182);
+}
+ul li{
+    display: inline;
+    margin:0 96px;
+    font-size:35px;
+}
+ul li:hover{
+    color:yellow;
+}
+.books-libriory{
+    background-size: cover;
+    background-image:url("https://agksit.kz/images/0_1.jpg");
+    height:645px;
+    padding:2px;
+    background-position: center;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:59px;
+    padding: 5px;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: rgb(77, 12, 12);
+}
+.different{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color:white;
+    font-size:39px;
+    width:779px;
+    text-align: center;
+}
+h1{
+    font-size:45px;
+    color:white;
+}
+#book{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.different{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    gap:24px;
+    padding:22px;
+}
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    gap:24px;
+    padding:22px;
+}
+#different2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    gap:24px;
+}
+.book,.book2,.book3,.books4,.popular,.popular2,.popular3,.popular4,.harry-poter,.Tarzan{
+    background:white;
+    padding:5px;
+}
+.registration{
+    display: flex;
+}
+.img{
+    background-image:url("https://agksit.kz/images/0_1.jpg");
+    height:245px;
+    background-size:cover;
+    background-attachment: fixed;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sign-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign{
+    background:rgb(249, 103, 103);  
+    width:400px;
+    height:410px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    place-items: center;
+    gap:14px;
+    display: none;
+    gap:26px;
+    border-radius: 29px;
+}
+.search{
+    width:334px;
+    height:34px;
+    font-size:25px;
+    border-radius: 99px;
+}
+.address-info{
+    display: flex;
+    justify-content: space-between;
+    gap:14px;
+    background-color: rgb(77, 12, 12);
+    align-items: space-between;
+}
+a{
+    color:white;
+}
+.location{
+    padding:5px;
+}
